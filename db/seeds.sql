@@ -18,7 +18,7 @@ VALUES  ("Sales Associate", 5, 2),
         ("IT Manager", 6, 1);
 
 
-INSERT INTO employee (id, first_name, last_name, role_id, manager_id)
+INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES  ("Mark", "Hammond", 2, null),
         ("Jake", "Ferrell", 1,1),
         ("Georgia", "Ross", 3, null),
