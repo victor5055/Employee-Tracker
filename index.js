@@ -1,7 +1,7 @@
 const app= require('./lib/app');
 
 //Initialize a new app 
-const application = new application();
+const application = new app();
 
 //Run the app
-app.run();
+application.run();
